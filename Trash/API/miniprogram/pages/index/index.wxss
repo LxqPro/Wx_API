@@ -1,0 +1,59 @@
+/* 主容器样式 */
+#container{
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+  box-sizing: content-box;
+}
+
+/* 顶部导航栏样式 */
+.topBar{
+  height: 200rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* 推荐区样式 */
+.recommend{
+  height: 80vh;
+}
+
+.topBar, .recommend{
+  width: 100%;
+  background-color: #fff;
+}
+/* 导航项被点击后改变的样式 */
+.cur text{
+  color:#ccc!important;
+}
+
+.nav{
+  height: 200rpx;
+  width: 250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:25rpx;
+}
+
+.nav image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  flex:1;
+}
+
+text{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 50rpx;
+}
+
+.nav text{
+  font-size: 25rpx;
+  line-height: 100rpx;
+  flex:1;
+}

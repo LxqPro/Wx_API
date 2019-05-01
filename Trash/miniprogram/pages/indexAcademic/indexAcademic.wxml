@@ -1,0 +1,9 @@
+<!--pages/indexAcademic/indexAcademic.wxml-->
+<view class = 'container'>
+  <view id = 'head'>
+    <text class = 'head'>{{schoolName}}</text>
+    <picker mode='selector' range="{{academyList}}" bindchange='ensureSelect'>
+      <text class = 'head'>{{academyName}}</text>
+    </picker>
+  </view>
+</view>

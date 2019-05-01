@@ -1,0 +1,17 @@
+/* pages/indexAcademic/indexAcademic.wxss */
+.container{
+  box-sizing: border-box;
+}
+#head{
+  display: flex;
+  height: 80rpx;
+  width: 100%;
+  justify-content: space-around;
+  border-bottom:1rpx solid #ccc; 
+}
+
+.head{
+  text-align: center;
+  line-height: 80rpx;
+  display: block;
+}

@@ -1,0 +1,84 @@
+/**index.wxss**/
+
+/* 整体样式 */
+.inf-bg{
+  background-color: rgb(241,244,245);
+  height: 300rpx;
+  padding: 50rpx;
+  position: relative;
+  font-size: 32rpx;
+  font-family: '楷体';
+  color:rgb(153, 151, 148);
+}
+
+.top-bg{
+  height: 150rpx;
+  position: relative;
+  margin-top: 10rpx;
+}
+/* 头像样式 */
+.top-bg-button{
+  position:absolute;
+  left:-45rpx;
+  border:1rpx solid rgb(241,244,245) !important;
+}
+/* 头像右方姓名学号盒子样式 */
+.top-bg-right{
+  height:150rpx;
+  width:70%;
+  position: absolute;
+  left:150rpx;
+ 
+}
+/* 姓名 */
+.top-bg-right .name{
+  height:75rpx;
+  margin-top:10rpx;
+  margin-bottom:0;
+  padding-top:10rpx;
+  font-size: 45rpx;
+  color:black;
+}
+/* 学号 */
+.top-bg-right .idnum{
+  height:75rpx;
+  padding-top:0;
+  margin-top:0
+}
+/* 学校学院盒子样式 */
+.middle-bg{
+  height: 250rpx;
+  width: 100%;
+  position: absolute;
+  top:150rpx;
+  padding-top:20rpx;
+  display: flex; 
+  flex-direction: column;
+}
+/* 学校 */
+.middle-bg .school{
+  margin: 5rpx 0;
+}
+/* 学院 */
+.middle-bg .academy{
+  margin: 5rpx 0;
+}
+/* 完善信息 */
+.button-complet{
+  width: 100%;
+  height: 100rpx;
+  background-color:  rgb(241,244,245);
+}
+/*完善信息的图片*/
+.button-complet image{
+  height: 100rpx;
+  width: 100rpx;
+  float: left;
+}
+/*完善信息*/
+.button-complet text{
+  display: block;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin:0 auto;
+}

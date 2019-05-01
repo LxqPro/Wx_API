@@ -1,0 +1,28 @@
+<!--顶部信息栏-->
+<view class='inf-bg'>
+  <view class='top-bg'>
+<!-- 头像图片 -->
+    <button size='mini' open-type='getUserInfo' bindgetuserinfo='onGetUserinfo' plain='true' class='top-bg-button' style=''>
+      <image src="{{user_avatarUrl}}"  style='height:150rpx;width:150rpx;'> </image>
+    </button> 
+<!-- 姓名学号 -->
+    <view class='top-bg-right'>
+      <view class='name'>{{user_name}}</view>
+      <view class='idnum' wx:if="{{isLogin==true}}">{{user_schoolid}}</view>
+    </view> 
+<!-- 学校学院 -->
+    <view class='middle-bg'>
+      <view wx:if="{{isLogin==true}}" class='school'>学校：{{user_school}}</view>
+      <view wx:if="{{isLogin==true}}" class='academy'>学院：{{user_academy}}</view>  
+    </view>
+  </view>
+</view>
+<!-- 完善信息 -->
+<navigator url='../completeInform/completeInform'>
+  <button class='button-complet' wx:if="{{isLogin==true}}">
+    <image src='0.jpg' style='height:50rpx;width:50rpx;margin-top:20rpx;'></image>
+    <text style='margin-top:0;'> 完善信息</text>
+  </button>
+</navigator>
+
+
